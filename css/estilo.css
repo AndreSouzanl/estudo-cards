@@ -46,14 +46,47 @@ header{
     flex-basis: 45%;
 }
 
+.card h3{
+    width: 50%;
+    text-align: center;
+    background-color: blue;
+    margin: 15px auto;
+    color: #fff;
+    padding: 15px;
+    border: 2px solid #000;
+    border-radius: 15px;
+}
+
+.card ul li{
+    font-size: 25px;
+    line-height: 35px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+a{
+    width: 15%;
+    text-align: center;
+    padding: 15px;
+    margin: 10px auto;
+    background-color: blue;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #000;
+    border-radius: 10px;
+    transition: 2s ease-in-out;
+}
+
+a:hover{
+    background-color: red;
+    color:#000
+}
+
+
  .card div{
     flex-grow: 1;
     margin-bottom: 10px;
 }
-
-
-
-
 
 @media(max-width:727px){
     .card{
